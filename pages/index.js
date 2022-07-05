@@ -3,6 +3,7 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
+
   return (
     <div className={styles.container}>
       <Head>
@@ -31,6 +32,7 @@ export default function Home() {
             <h2>Learn &rarr;</h2>
             <p>Learn about Next.js in an interactive course with quizzes!</p>
           </a>
+
 
           <a
             href="https://github.com/vercel/next.js/tree/canary/examples"
